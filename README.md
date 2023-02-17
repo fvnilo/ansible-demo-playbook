@@ -26,4 +26,6 @@ ansible-playbook -i aws_ec2.yml site.yml
 
 The inventory is using the `aws_ec2` Ansible plugin. You need to have one or more instance with the Name tag as `webserver-demo`.
 
+You can have a look at your hosts with this command: `ansible-inventory -i aws_ec2.yml --graph`.
+
 [Click here](https://docs.ansible.com/ansible/latest/plugins/inventory.html#inventory-plugins) for more info.
