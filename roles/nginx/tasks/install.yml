@@ -1,5 +1,3 @@
 ---
 - name: Install nginx package
-  yum:
-    name: nginx
-    state: latest
+  shell: amazon-linux-extras install nginx1 -y
