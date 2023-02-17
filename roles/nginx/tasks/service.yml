@@ -1,0 +1,6 @@
+---
+- name: ensure nginx is started and enabled at boot
+  service:
+    name: nginx
+    state: started
+    enabled: yes

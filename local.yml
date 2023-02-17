@@ -1,0 +1,7 @@
+---
+- name: Provisioning our server locally
+  hosts: localhost
+  user: ec2-user
+  become: true
+  roles:
+    - nginx
